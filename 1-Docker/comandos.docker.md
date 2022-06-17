@@ -104,6 +104,12 @@ com --name nome_novo
 
 `docker rm <hash id>`
 
+Para remover uma lista inteira de containers eu posso fazer
+
+`docker rm $(docker ps -a -q) -f`
+
+Onde `docker ps -a -q` me da uma lista dos ids dos containers
+
 Pode usar o nome dele tambem ao inves do id
 
 ## Exec
