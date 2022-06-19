@@ -92,6 +92,8 @@ que siginifica, a porta 8080 da maquina local que roda o docker (pode ser um ser
 
 o comando -d significa detached, que significa q o terminal esta desataxado do processo de run do docker pra essa imagem
 
+para atachar de novo vc passa `dokcer attach nome-do-container`
+
 ### Renomeando container
 
 com --name nome_novo
