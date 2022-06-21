@@ -16,6 +16,10 @@ onde hiaguedes e o nome de perfil la no docker hub
 
 `docker build -t hiaguedes/nginx-vim .`
 
+Para buildar um arquivo que tem um nome diferente como Dockerfile.prod nos fazemos
+
+`docker build -t hiaguedes/nginx-vim . -f Dockerfile.prod`
+
 ### Comandos
 
 `FROM` -> no comeco do arquivo, diz q a sua imagem se baseia de qual imagem

@@ -145,3 +145,9 @@ com o docker eu tenho as opcoes de um volume com
 Um volume e uma caixinha onde posso colocar dados e alterar arquivos dentro dos meus containers
 
 Para trabalhar com volume com o mount o type vai ser volume apenas isso
+
+## Logs
+
+Posso ver os logs de subida de um container com
+
+`docker logs nome-container`
