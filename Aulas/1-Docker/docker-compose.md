@@ -8,7 +8,7 @@ Pra subir de um docker compose eu tenho o comando
 
 `docker-compose up` ou com -d tbm serve
 
-## Usando dokcerfile dentro do compose
+## Usando dockerfile dentro do compose
 
 Dentro dos services eu posso passar um build da seguinte forma
 

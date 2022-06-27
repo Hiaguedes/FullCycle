@@ -1,0 +1,19 @@
+version: '3'
+
+networks: 
+  app-network:
+    driver: bridge    
+
+services:
+  app: 
+    image: node
+    container_name: app
+    ports: 
+      - "3000:3000"
+    volumes:
+      - ./node:/app
+    tty: true
+
+
+# docker-compose -f ./docker-compose.nginx.yaml up -d --build
+# docker exec -it app /bin/bash
