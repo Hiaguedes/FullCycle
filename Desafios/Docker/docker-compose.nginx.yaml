@@ -7,12 +7,27 @@ networks:
 services:
   app: 
     image: node
+    user: node
     container_name: app
     ports: 
-      - "3000:3000"
+      - "3000:4000"
     volumes:
       - ./node:/app
     tty: true
+    working_dir: /app
+    entrypoint: node index.js
+    networks:
+      - app-network
+
+  server:
+    image: nginx
+    volumes:
+      - ./nginx/configs/:/etc/nginx/conf.d/:ro
+    container_name: server
+    ports: 
+      - "8080:80"
+    networks:
+      - app-network
 
 
 # docker-compose -f ./docker-compose.nginx.yaml up -d --build
