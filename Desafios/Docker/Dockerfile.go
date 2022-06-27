@@ -6,7 +6,7 @@ RUN go get -d -v \
   && go install -v \
   && go build main.go
 
-FROM alpine:3.8
+FROM scratch
 COPY --from=multistage /go/bin/api /go/bin/
 CMD ["/go/bin/api"]
 
