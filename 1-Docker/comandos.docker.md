@@ -151,3 +151,7 @@ Para trabalhar com volume com o mount o type vai ser volume apenas isso
 Posso ver os logs de subida de um container com
 
 `docker logs nome-container`
+
+## Variaveis de ambiente
+
+`docker run -e NOME-E-VALOR-DA-VARIAVEL DE AMBIENTE`

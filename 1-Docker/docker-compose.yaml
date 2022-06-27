@@ -1,0 +1,17 @@
+version: '3'
+networks:
+  rede:
+    driver: bridge
+
+services:
+
+  nginx: 
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: hiaguedes/nginx-vim:latest
+    container_name: nginx
+    networks: 
+      - rede
+    ports:
+      - "8080:80"
