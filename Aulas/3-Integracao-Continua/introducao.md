@@ -62,3 +62,13 @@ Se voce tiver um repo publico voce pode usar a vontade
 Mas se for privado vc tem planos
 
 Isso por enquanto...
+
+## a parte pratica
+
+A parte pratica desse curso encontra-se em:
+
+https://github.com/Hiaguedes/basic-ci/tree/feat/soma-decimais
+
+la vimos aplicamos actions pra validar se os testes tao passando e quality gate com o sonar cloud, os arquivos tao na branch `feat/soma-decimais`
+
+As actions voce pode ver na guia actions
