@@ -1,10 +1,10 @@
 # Solid
 
-S -> Single Responsibilty Principle
-O -> Open Closed Principle
-L -> Liskov Substitution Principle
-I -> Interface Segregation Principle
-D -> Dependency Inversion Principle
+- S -> Single Responsibilty Principle
+- O -> Open Closed Principle
+- L -> Liskov Substitution Principle
+- I -> Interface Segregation Principle
+- D -> Dependency Inversion Principle
 
 E o como e a forma de se codificar, e uma dessas formas e o SOLID
 
