@@ -167,3 +167,11 @@ Exemplos de requisito
 - Marketing -> Atuar em campanha de marketing e ter disponibilidade para aquele momento especifico, ter como trackear informacoes importantes coletadas durante uma exposicao, cachear informacoes vitais pro usuario poder usar tal funcionalidade
 
 Normalmente essas RAs sao bem organicas e pouco estruturadas, e o requisito se pega de forma implicita, porem organizar isso ajuda bastante na hora da arquitetura 
+
+## Perspectivas para arquitetar um software
+
+- Performance (e como metrificar)
+
+- Escalabilidade
+
+- Resiliencia (todo software nasceu pra falhar )
