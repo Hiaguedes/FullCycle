@@ -6,6 +6,8 @@
 
 - Faz parte da CNCF (Cloud Native Computation Foundation)
 
+https://grpc.io/
+
 ## Em quais casos utilizar
 
 - Ideal pra microsservicos
@@ -41,6 +43,10 @@ Protocol buffer are google's language-neutral, extensible mechanism for serializ
 ```
 
 O protocol buffer nao foi criado apenas pro grpc mas da pra se fazer bastante coisa com eles
+
+O grpc utiliza protocol buffer mas nao significa que o protocol buffer so e utilizado no grpc
+
+https://developers.google.com/protocol-buffers/
 
 ### Protocol Buffer vs JSON
 
